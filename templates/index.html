@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Thi Dung - Literature Tutor | A Winter Literary Journey</title>
+    <link rel="icon" type="image/svg+xml" href="../static/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/game.css">
+</head>
+<body>
+
+    <!-- Snow Canvas -->
+    <canvas id="snow-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#" class="nav-brand">❄ Dung Nguyen</a>
+        <div class="hamburger">☰</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#winter-game" class="nav-game-link">❄ Mini Game</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="../static/images/ảnh 10.jpg" alt="" class="floating-photo" style="top: 15%; left: 5%; width: 200px; transform: rotate(-5deg);">
+        
+        <div class="hero-content reveal">
+            <span class="hero-subtitle">Portfolio</span>
+            <h1 class="hero-title">NGUYEN THI DUNG<br>LITERATURE TUTOR</h1>
+            <p class="hero-tagline">"Learn Literature. Think Deeper. Write Better."</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">View My Journey</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <img src="../static/images/ảnh 1.jpg" alt="Nguyen Thi Dung">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="../static/images/ảnh 3.jpg" alt="" class="floating-photo" style="top: 10%; right: 10%; width: 180px; transform: rotate(10deg);">
+        <img src="../static/images/ảnh 4.jpg" alt="" class="floating-photo" style="bottom: 5%; left: 8%; width: 150px; transform: rotate(-12deg);">
+        <img src="../static/images/ảnh 5.jpg" alt="" class="floating-photo" style="top: 40%; left: -2%; width: 120px; transform: rotate(8deg);">
+        
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <img src="../static/images/ảnh 2.jpg" alt="About Me">
+            </div>
+            <div class="about-text reveal">
+                <p>Hello! I am Nguyen Thi Dung, a passionate Literature Tutor dedicated to helping students discover the beauty of literature and excel in their academic pursuits.</p>
+                <p>With a strong background in Literature from Bac Giang High School for the Gifted and currently an undergraduate student at Foreign Trade University, I have honed my skills and knowledge to guide students effectively.</p>
+                <p>My teaching philosophy revolves around personalized learning, fostering a comfortable environment, and ensuring that every student can confidently express their thoughts and achieve outstanding results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutoring Programs -->
+    <section id="programs">
+        <img src="../static/images/văn 12.png" alt="Sách Văn 12" class="floating-photo" style="bottom: 10%; right: 5%; width: 150px; transform: rotate(-10deg); border: none; box-shadow: none;">
+        
+        <h2 class="section-title reveal">Tutoring Programs</h2>
+        <div class="programs-grid">
+            <div class="program-card reveal">
+                <div class="program-number">01</div>
+                <h3>Vietnamese High School Graduation Examination</h3>
+                <p>Comprehensive preparation tailored to equip students with the skills and knowledge required to excel in the national graduation examination.</p>
+            </div>
+            <div class="program-card reveal">
+                <div class="program-number">02</div>
+                <h3>Grade 10 Entrance Examination</h3>
+                <p>Focused training and practice to help students achieve high scores and secure admission into their desired high schools.</p>
+            </div>
+            <div class="program-card reveal">
+                <div class="program-number">03</div>
+                <h3>Fundamental Literature Knowledge</h3>
+                <p>Building a strong foundation in literature for middle and high school students to enhance their understanding and appreciation of the subject.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Format -->
+    <section id="format" style="background: var(--light-silver);">
+        <h2 class="section-title reveal">Teaching Format</h2>
+        <div class="format-grid">
+            <div class="format-card reveal">
+                <div class="format-icon">👤</div>
+                <h3>One-on-One</h3>
+                <p>Personalized individual tutoring tailored to specific needs.</p>
+            </div>
+            <div class="format-card reveal">
+                <div class="format-icon">👥</div>
+                <h3>Small Group</h3>
+                <p>Interactive classes designed for 4–5 students.</p>
+            </div>
+            <div class="format-card reveal">
+                <img src="../static/images/gg meet.jpg" alt="Google Meet" style="width: 50px; margin-bottom: 1rem;">
+                <h3>Online</h3>
+                <p>Flexible learning via Google Meet, Microsoft Teams, Zoom, etc.</p>
+            </div>
+            <div class="format-card reveal">
+                <div class="format-icon">📍</div>
+                <h3>Offline</h3>
+                <p>In-person sessions within approximately 5 km.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Benefits -->
+    <section id="benefits">
+        <h2 class="section-title reveal">Why Learn With Me?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">🎯</div>
+                <p>Personalized learning plans</p>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">😊</div>
+                <p>Friendly, comfortable and engaging learning environment</p>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">🤝</div>
+                <p>Personalized support</p>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">💬</div>
+                <p>Open communication</p>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">⏰</div>
+                <p>Flexible online learning schedules</p>
+            </div>
+            <div class="benefit-item reveal">
+                <div class="benefit-icon">📚</div>
+                <p>Relevant learning materials and study resources</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section id="education" style="background: white; position: relative;">
+        <img src="../static/images/ảnh 6.jpg" alt="" class="floating-photo" style="top: 20%; left: 5%; width: 220px; transform: rotate(-8deg);">
+        <img src="../static/images/ảnh 9.jpg" alt="" class="floating-photo" style="bottom: 20%; right: 5%; width: 250px; transform: rotate(12deg);">
+        
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024–2028</div>
+                    <h3>FOREIGN TRADE UNIVERSITY</h3>
+                    <p>Undergraduate Student</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021–2024</div>
+                    <h3>BAC GIANG HIGH SCHOOL FOR THE GIFTED</h3>
+                    <p>Literature Major<br>Former Literature Specialized Class Student, K31</p>
+                    <ul style="text-align: left; margin-top: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                        <li>Member of the National Excellent Student Competition Team in Literature, 2022–2023</li>
+                        <li>Member of the Provincial Excellent Student Competition Team in Literature, Grade 12, 2023–2024</li>
+                        <li>Grade 12 Literature GPA: <strong>9.7/10</strong></li>
+                        <li>Vietnamese Literature score in National High School Graduation Exam: <strong>9.5/10</strong></li>
+                        <li>Graduated with Excellent Academic Performance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outstanding Achievements -->
+    <section id="achievements" style="position: relative;">
+        <img src="../static/images/ảnh 11.jpg" alt="" class="floating-photo" style="top: 30%; left: 8%; width: 230px; transform: rotate(6deg);">
+        <img src="../static/images/ảnh 7.jpg" alt="" class="floating-photo" style="bottom: 10%; right: 10%; width: 200px; transform: rotate(-15deg);">
+        
+        <h2 class="section-title reveal">Outstanding Achievements</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h3>Third Prize</h3>
+                    <p>Provincial Excellent Student Competition in Literature</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal" style="transform: scale(1.05); z-index: 10;">
+                <div class="timeline-dot" style="background: gold;"></div>
+                <div class="timeline-content" style="border: 2px solid var(--soft-blue);">
+                    <div class="timeline-date">2023</div>
+                    <h3>Third Prize</h3>
+                    <p><strong>National Excellent Student Competition in Literature</strong></p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2022</div>
+                    <h3>Gold Medal in Literature</h3>
+                    <p>Hung Vuong Summer Camp Competition for Gifted High Schools in the Northern Midlands and Mountainous Region</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021</div>
+                    <h3>Consolation Prize</h3>
+                    <p>Provincial-level Literature Competition</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2021</div>
+                    <h3>Second Prize</h3>
+                    <p>District-level Literature Competition</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2020</div>
+                    <h3>Second Prize</h3>
+                    <p>District-level Literature Competition</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-date">2019</div>
+                    <h3>First Prize</h3>
+                    <p>District-level Literature Competition</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutoring Experience -->
+    <section id="experience" style="background: var(--light-silver); position: relative;">
+        <img src="../static/images/ảnh 12.jpg" alt="" class="floating-photo" style="top: 40%; left: 2%; width: 250px; transform: rotate(-10deg);">
+        <img src="../static/images/ảnh 8.jpg" alt="" class="floating-photo" style="bottom: 15%; right: 5%; width: 220px; transform: rotate(14deg);">
+
+        <h2 class="section-title reveal">Tutoring Experience</h2>
+        <div class="experience-grid">
+            
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <h3 class="exp-title">Vietnamese High School Graduation Examination</h3>
+                    <span class="exp-type">Individual & Small-Group Tutoring</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Supported students who achieved <span class="highlight-score">8+</span> and <span class="highlight-score">9+</span> in the 2025 Literature Graduation Examination</li>
+                    <li>Helped students improve from below-basic level to <span class="highlight-score">7+</span> in the 2025 examination</li>
+                    <li>Provided one-on-one essay grading, feedback, and correction</li>
+                </ul>
+            </div>
+
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <h3 class="exp-title">Grade 10 Entrance Examination</h3>
+                    <span class="exp-type">Individual & Small-Group Tutoring</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Supported a study group whose students achieved <span class="highlight-score">8+</span> in the 2026 Grade 10 Entrance Examination organized by Hanoi</li>
+                    <li>Helped a student improve from <span class="highlight-score">6+ → 8+</span> in the 2025 Grade 10 Entrance Examination in Quang Ninh</li>
+                    <li>Supported students who achieved <span class="highlight-score">9+</span> in the 2025 Grade 10 Entrance Examination in Bac Ninh</li>
+                </ul>
+            </div>
+
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <h3 class="exp-title">Middle & High School Semester Exam Preparation</h3>
+                    <span class="exp-type">Individual Tutoring</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Supported a Grade 11 student in achieving a final Literature score of <span class="highlight-score">8.7/10</span> in the 2025–2026 academic year</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats-container reveal">
+        <div class="stat-item">
+            <div class="stat-number">9.7/10</div>
+            <div class="stat-label">Grade 12 Literature GPA</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">9.5/10</div>
+            <div class="stat-label">National Graduation Score</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">8.7/10</div>
+            <div class="stat-label">Grade 11 Final Score</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">2024–2028</div>
+            <div class="stat-label">Foreign Trade University</div>
+        </div>
+    </div>
+
+    <!-- Winter Mini Game Invite -->
+    <section id="winter-game" class="game-invite">
+        <div class="game-invite-card reveal">
+            <div class="invite-text">
+                <span class="invite-eyebrow">❄ Winter Break · Mini Game</span>
+                <h2 class="invite-title">Catch the Snow</h2>
+                <p class="invite-desc">Take a little breath between chapters. Move the open book to catch falling snowflakes in <strong>30 seconds</strong> — chain catches for combo multipliers, and watch out for ink drops!</p>
+                <div class="invite-actions">
+                    <button id="start-game-cta" class="btn btn-glow">▶ Play Now</button>
+                    <div class="invite-best">🏆 Best score <strong id="invite-best">0</strong></div>
+                </div>
+                <div class="invite-controls">
+                    <span>🖱 Mouse</span><span>👆 Drag</span><span>⌨ ← → keys</span><span>Esc to quit</span>
+                </div>
+            </div>
+            <ul class="flake-legend">
+                <li class="legend-item">
+                    <canvas data-flake="normal" width="96" height="96"></canvas>
+                    <div><strong>Snowflake</strong><span>Gentle &amp; common</span></div>
+                    <em class="legend-points">+1</em>
+                </li>
+                <li class="legend-item">
+                    <canvas data-flake="ice" width="96" height="96"></canvas>
+                    <div><strong>Ice Crystal</strong><span>Shimmering blue</span></div>
+                    <em class="legend-points ice">+3</em>
+                </li>
+                <li class="legend-item">
+                    <canvas data-flake="gold" width="96" height="96"></canvas>
+                    <div><strong>Golden Flake</strong><span>Rare &amp; fast</span></div>
+                    <em class="legend-points gold">+5</em>
+                </li>
+                <li class="legend-item danger">
+                    <canvas data-flake="ink" width="96" height="96"></canvas>
+                    <div><strong>Ink Drop</strong><span>Breaks your combo</span></div>
+                    <em class="legend-points ink">−5</em>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="position: relative;">
+        <img src="../static/images/ảnh 13.jpg" alt="" class="floating-photo" style="top: 20%; right: 15%; width: 200px; transform: rotate(8deg);">
+        
+        <h2 class="section-title reveal">Let's Learn Together</h2>
+        <div class="contact-section reveal">
+            <p>Ready to embark on your literary journey? Get in touch today.</p>
+            <div class="contact-links">
+                <a href="mailto:nhohoa831@gmail.com" class="contact-link">
+                    ✉️ nhohoa831@gmail.com
+                </a>
+                <a href="tel:0372834642" class="contact-link">
+                    📞 0372834642
+                </a>
+                <div class="contact-link" style="cursor: default;">
+                    📍 Hanoi, Vietnam
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nguyen Thi Dung - Literature Tutor. A Winter Literary Journey.</p>
+    </footer>
+
+    <!-- Game Elements & Audio -->
+    <audio id="bg-music" src="https://ia800806.us.archive.org/15/items/GymnopedieNo.1/GymnopedieNo.1.mp3" loop></audio>
+
+    <div class="game-backdrop" id="game-backdrop"></div>
+
+    <div class="game-controls">
+        <button id="toggle-music" class="game-btn" title="Toggle Music" aria-label="Toggle music">🎵</button>
+        <button id="toggle-sound" class="game-btn" title="Toggle Sound Effects" aria-label="Toggle sound effects">🔊</button>
+        <button id="toggle-game" class="game-launcher" title="Play Catch the Snow">
+            <span class="launcher-icon">❄</span>
+            <span class="launcher-text">Catch the Snow</span>
+        </button>
+    </div>
+
+    <!-- Game HUD -->
+    <div id="game-hud" class="game-hud" aria-live="polite">
+        <div class="hud-item">
+            <span class="hud-label">Score</span>
+            <span id="game-score" class="hud-value">0</span>
+        </div>
+        <div class="hud-item hud-time" id="hud-time">
+            <span class="hud-label">Time</span>
+            <span id="game-time" class="hud-value">30</span>
+            <div class="time-bar"><div id="time-bar-fill" class="time-bar-fill"></div></div>
+        </div>
+        <div class="hud-item hud-combo" id="hud-combo">
+            <span class="hud-label">Combo</span>
+            <span id="game-combo" class="hud-value">x1</span>
+        </div>
+        <div class="hud-item hud-best">
+            <span class="hud-label">Best</span>
+            <span id="game-best" class="hud-value">0</span>
+        </div>
+        <button id="quit-game" class="hud-quit" title="Quit (Esc)" aria-label="Quit game">✕</button>
+    </div>
+
+    <div id="catcher" class="catcher">
+        <div class="catcher-inner" id="catcher-inner">
+            <span class="catcher-glow"></span>
+            <span class="catcher-icon" id="catcher-icon">📖</span>
+        </div>
+    </div>
+
+    <div id="game-countdown" class="game-countdown"><span id="countdown-num">3</span></div>
+    <div id="game-hint" class="game-hint">Move the book to catch ❄ · Avoid the ink drops 🖋</div>
+
+    <!-- Result -->
+    <div id="game-overlay" class="game-overlay" role="dialog" aria-modal="true" aria-labelledby="result-title">
+        <div class="game-result-box">
+            <canvas class="result-icon" data-flake="gold" width="96" height="96"></canvas>
+            <h3 id="result-title" class="result-title">Time's Up!</h3>
+            <p id="result-rank" class="result-rank">Winter Wanderer</p>
+            <div class="result-score-wrap">
+                <span id="result-score" class="result-score">0</span>
+                <span class="result-score-label">points</span>
+            </div>
+            <div id="new-best" class="new-best">🏆 New personal best!</div>
+            <p id="result-msg" class="result-msg"></p>
+            <div class="result-stats">
+                <div class="result-stat"><canvas data-flake="normal" width="96" height="96"></canvas><strong id="stat-normal">0</strong></div>
+                <div class="result-stat"><canvas data-flake="ice" width="96" height="96"></canvas><strong id="stat-ice">0</strong></div>
+                <div class="result-stat"><canvas data-flake="gold" width="96" height="96"></canvas><strong id="stat-gold">0</strong></div>
+                <div class="result-stat"><canvas data-flake="ink" width="96" height="96"></canvas><strong id="stat-ink">0</strong></div>
+                <div class="result-stat"><span class="stat-emoji">🔥</span><strong id="stat-combo">0</strong></div>
+            </div>
+            <p class="result-best">Personal best: <strong id="result-best">0</strong></p>
+            <div class="result-actions">
+                <button id="restart-game" class="btn btn-primary">↻ Play Again</button>
+                <button id="close-game" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

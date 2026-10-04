@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7cc4ff" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#glow)"/>
+  <g stroke="#3468a8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(50 50)">
+    <g id="arm">
+      <line x1="0" y1="0" x2="0" y2="-38"/>
+      <line x1="0" y1="-20" x2="-10" y2="-30"/>
+      <line x1="0" y1="-20" x2="10" y2="-30"/>
+      <line x1="0" y1="-8" x2="-12" y2="-12"/>
+      <line x1="0" y1="-8" x2="12" y2="-12"/>
+    </g>
+    <use href="#arm" transform="rotate(60)"/>
+    <use href="#arm" transform="rotate(120)"/>
+    <use href="#arm" transform="rotate(180)"/>
+    <use href="#arm" transform="rotate(240)"/>
+    <use href="#arm" transform="rotate(300)"/>
+    <circle cx="0" cy="0" r="4" fill="#ffffff" stroke="#3468a8" stroke-width="4"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(50 50)">
+    <use href="#arm" transform="rotate(0) scale(0.95)"/>
+    <use href="#arm" transform="rotate(60) scale(0.95)"/>
+    <use href="#arm" transform="rotate(120) scale(0.95)"/>
+    <use href="#arm" transform="rotate(180) scale(0.95)"/>
+    <use href="#arm" transform="rotate(240) scale(0.95)"/>
+    <use href="#arm" transform="rotate(300) scale(0.95)"/>
+  </g>
+</svg>
